@@ -1,5 +1,5 @@
  <?php include_once('functions.php'); ?>
- <?php $project_name = "Project"; ?>
+ <?php $project_name = "Agorà"; ?>
 <!DOCTYPE html>
 
 <head>
@@ -8,10 +8,10 @@
 <meta name="viewport" content="width=device-width">
 <!-- Style Guide Boilerplate Styles -->
 <link rel="stylesheet" href="css/styleguide.css">
-<link rel="stylesheet" href="css/bootstrap.css">
+<!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
 
 <!-- Replace below stylesheet with your own stylesheet -->
-<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="/sites/all/themes/agora_bootstrap/css/style.css">
 </head>
 <body   data-spy="scroll" data-target=".navbar-default" data-offset="60" >
 <!-- Fixed navbar -->
