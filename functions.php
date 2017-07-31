@@ -58,7 +58,7 @@ echo '<li role="presentation" class="divider"></li><li role="presentation" class
       foreach ($files as $file):
           $filename = preg_replace("/\.html$/i", "", $file);
           $title = preg_replace("/\-/i", " ", $filename);
-          echo '<div class="col-lg-12 sg-section" id="sg-'.$filename.'">';
+          echo '<div class="col-lg-24 sg-section" id="sg-'.$filename.'">';
           echo '<div class="sg-display">';
           echo '<h2 class="sg-h2">'.$title.'</h2>';
           include('docs/'.$file);
@@ -80,7 +80,7 @@ echo '<li role="presentation" class="divider"></li><li role="presentation" class
     foreach ($files as $file):
         $filename = preg_replace("/\.html$/i", "", $file);
         $title = preg_replace("/\-/i", " ", $filename);
-        echo '<div class="col-lg-12 sg-section" id="sg-'.$filename.'">';
+        echo '<div class="col-lg-24 sg-section" id="sg-'.$filename.'">';
         echo '<div class="sg-display">';
         echo '<h2 class="sg-h2">'.$title.'</h2>';
         include('foundation/'.$file);
@@ -107,12 +107,12 @@ echo '<li role="presentation" class="divider"></li><li role="presentation" class
         echo '<div class="sg-display">';
         echo '<h2 class="sg-h2"><a id="sg-'.$filename.'" class="sg-anchor">'.$title.'</a></h2>';
         //echo '<div class="col-md-10 col-md-offset-1">';
-        echo '<div class="row"><div class="col-md-8">';
+        echo '<div class="row"><div class="col-md-16">';
         echo '<h3 class="sg-h3">Example</h3>';
         include('markup/'.$type.'/'.$file);
         echo '</div>';
          if (file_exists($documentation)) {
-          echo '<div class="col-md-4"><div class="well sg-doc">';
+          echo '<div class="col-md-8"><div class="well sg-doc">';
           echo '<h3 class="sg-h3">Usage Notes</h3>';
           include($documentation);
           echo '</div></div></div>';
