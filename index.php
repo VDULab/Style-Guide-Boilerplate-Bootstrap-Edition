@@ -64,5 +64,8 @@
 <script src="js/dropdown.js"></script>
 <script src="js/sg-plugins.js"></script>
 <script src="js/sg-scripts.js"></script>
+<script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.13'><\/script>".replace("HOST", location.hostname));
+//]]></script>
 </body>
 </html>
