@@ -9,6 +9,7 @@
 <!-- Style Guide Boilerplate Styles -->
 <link rel="stylesheet" href="css/styleguide.css">
 <link rel="stylesheet" href="/sites/all/themes/agora_bootstrap/css/bootstrap.css">
+<link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
 
 <!-- Replace below stylesheet with your own stylesheet -->
 <link rel="stylesheet" href="/sites/all/themes/agora_bootstrap/css/style.css">
